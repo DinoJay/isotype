@@ -1,0 +1,103 @@
+.pushH2 {
+  margin-left: 25px;
+}
+
+.myParagraph {
+  line-height : 1.5;
+}
+
+.myJumbo {
+  background-color: rgba(196, 110, 68, 0.14);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.firstLetter{
+  float       : left;
+  font-size   : 3.11em;
+  line-height : 0.5;
+  margin      : 0.205em 0.153em 0 0;
+}
+
+.firstLetter + span{
+  margin-left : -0.5em;
+}
+
+.myCont {
+  margin-left: 80px;
+  margin-right: 80px
+}
+
+#horChart {
+  margin-top: 25px;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+/* .axis { */
+/*   font: 10px sans-serif; */
+/* } */
+
+/* .axis path, */
+/* .axis line { */
+/*   fill: none; */
+/*   stroke: #000; */
+/*   shape-rendering: crispEdges; */
+/* } */
+
+/* .x.axis path { */
+/*   display: none; */
+/* } */
+
+/* .line { */
+/*   fill: none; */
+/*   stroke: #444; */
+/*   stroke-width: 1; */
+/* } */
+
+/* d3 styles */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis > path {
+    stroke-width: 2;
+    stroke: lightgrey;
+}
+
+/* .x.axis, */
+/* .y.axis  { */
+/*     font-size: 30px; */
+/* } */
+
+.tick line {
+    stroke: grey;
+}
+
+line.minor {
+    stroke: red;
+    stroke-width: 1;
+    opacity: 0.2;
+}
+
+.axis text {
+    fill: grey;
+}
+
+/* grid */
+.grid .tick {
+    stroke: rgba(196, 110, 68, 0.14);
+    opacity: 0.5 !important;
+}
+
+img.isotype {
+  position:absolute;
+  background-repeat:no-repeat;
+  background-size:contain;
+}
